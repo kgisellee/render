@@ -1,0 +1,26 @@
+.encabezado{
+    background-color: black;
+    align-items: flex-start;
+}
+.menu-hamburguesa span{
+    display: block;
+    height: 10px;
+    color: chocolate;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+H1{
+
+    color: chocolate;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 200px;
+    grid-template-areas: 
+        "header header header"
+        "sidebar content content"
+        "footer footer footer";
+}
